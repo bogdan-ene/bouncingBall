@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: lightgreen;
+  }
+  
+  #ball {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #start-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  
